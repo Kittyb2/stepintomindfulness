@@ -1,0 +1,49 @@
+body {background-color:cyan}
+
+
+.header{ padding: 80px;
+        text-align:center;
+        background:cyan;
+        color:black;
+}
+.header h1 {
+    font-size:  60px;
+}
+
+.h2 {font-size 30px;
+    color:black;
+     text-align:center;
+    }
+    
+/* style the navigation bar links*/
+
+.navbar a {
+
+float: right;
+display: block;
+color:black;
+text-align:center;
+padding: 14px; 20px;
+text-decoration:none;
+
+}
+
+.navbar a.right{
+float:right;
+}
+/* change color on hover/mouse over*/
+
+.navbar a:hover{
+    background-color:white;
+    color:black;
+}
+
+/* mindful1 image*/
+
+#mindful1 {
+
+height: 600px;
+width:100px;
+background-color:url('../Images/Mindful1.jpg') no-repeat;
+
+}
